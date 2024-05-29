@@ -4,12 +4,12 @@ In this final assigment we focus on creat self driving car system using camera a
 The main goal is that the car can drive in a path and avoid hitting obstacles on the way.
 <br />
 ### In this project we use:
-1. modified RC-car with bluetooth control
-2. simple android phone for camera and sensors
+1. Modified RC-car with bluetooth control
+2. Simple android phone for camera and sensors
 <br />
 
 ### The Program:
-build with python code that will locate the obstacles and the travel path for a smooth ride with minimal problems.
+Build with python code that will locate the obstacles and the travel path for a smooth ride with minimal problems.
 <br />
 <br />
 
