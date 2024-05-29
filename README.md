@@ -1,4 +1,4 @@
-# Autonomous Mini Car
+# Autonomous Mini Car :car: :construction:
 ## The project:
 In this final assigment we focus on creat self driving car system using camera and few sensors.
 The main goal is that the car can drive in a path and avoid hitting obstacles on the way.
