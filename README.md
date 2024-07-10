@@ -1,9 +1,9 @@
-# Autonomous Mini Car :construction: :stop_sign: :car:
-## The project:
+# Self Driving Mini Car :construction: :stop_sign: :car:
+## The Project:
 In this final assigment we focus on creat self driving car system using camera and few sensors.
 The main goal is that the car can drive in a path and avoid hitting obstacles on the way.
 <br />
-### In this project we use:
+### We Use:
 1. Modified RC-car with bluetooth control
 2. Simple android phone for camera and sensors
 <br />
@@ -19,7 +19,10 @@ We used 2 apps:
   Can be downloaded form the Play Store [link](https://play.google.com/store/apps/details?id=com.pas.webcam)
   - **SensorServer** - Streaming sensors data over websockets.</br>
   Can be downloaded the apk from this repo [link](https://github.com/umer0586/SensorServer)
+![image](https://github.com/MoriahDavid/autonomous-mini-car/assets/93945532/b9d8b12f-a8aa-41bb-8d8e-a847bd16adf4)
 
+<br />
+<br />
 
 ## Project Structure
 The code is separated into parts in order to be more generic and easy to modify.
@@ -30,8 +33,12 @@ The code is separated into parts in order to be more generic and easy to modify.
 - **Car class** - Handle the connection to the car controller and provides function to control the car - move forward and backward with wanted angle, stop and set car speed.
 - **Car Controller class** - get the data from the other classes and responsible to the state machine that control the car actions.
 
+![image](https://github.com/MoriahDavid/autonomous-mini-car/assets/93945532/2121a664-b1f8-4074-89b0-3e31aabc599f)
 
-## How to run
+<br />
+<br />
+
+## How To Run:
 In order to run you must have all 3 components connected to the same Wi-Fi network, for the most simplicity we used the android phone as hotspot.</br>
 The smartphone should be mounted landscape on the car in about 60 degrees to the floor.</br>
 1. Open the smartphone hotspot
@@ -41,9 +48,10 @@ The smartphone should be mounted landscape on the car in about 60 degrees to the
 
 The user can control with the keyboard. For stopping the car press the key 's' and for resume running press the key 'r'.
 By default, the car start on 'stop' mode.
+<br />
+<br />
 
-<br />
-<br />
+![image](https://github.com/MoriahDavid/autonomous-mini-car/assets/93945532/63452bca-3c43-47a9-b167-e6b2f835a518)
 
 ### Related Works:
 In several related works we found, the researchers used the OpenCV library to identify a travel lane, road signs and obstacles.<br />
